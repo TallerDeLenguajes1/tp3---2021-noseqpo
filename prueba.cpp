@@ -21,9 +21,9 @@ int main() {
         }
     }
     if (isPrime)
-        cout << n << " is a prime number";
+        cout << n << " es un numero primo";
     else
-        cout << n << " is not a prime number";
+        cout << n << " no es un numero primo";
 
     return 0;
 }
