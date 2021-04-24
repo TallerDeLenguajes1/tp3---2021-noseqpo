@@ -20,10 +20,14 @@ int main() {
             }
         }
     }
-    if (isPrime)
+    if (isPrime){
         cout << n << " es un numero primo";
-    else
+    }
+        
+    else{
         cout << n << " no es un numero primo";
-
+    }
+        
+    getchar();
     return 0;
 }
